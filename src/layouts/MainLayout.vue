@@ -15,13 +15,12 @@
           MobiSoft
         </q-toolbar-title>
 
-        <div>v{{ $q.version }}</div>
+        <div>v1.0.0</div>
       </q-toolbar>
     </q-header>
 
     <q-drawer
       v-model="leftDrawerOpen"
-      show-if-above
       bordered
     >
       <q-list>
