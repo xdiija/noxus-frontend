@@ -1,4 +1,4 @@
-# MobiMax (front-end)
+# MObiSoft (front-end)
 
 Sistema Gerenciador
 
