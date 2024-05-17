@@ -1,6 +1,8 @@
 <template>
   <q-page class="flex flex-center">
-
+    <h1>
+        aaaaaaaaaaaaaaaaaaaaa
+    </h1>
   </q-page>
 </template>
 
@@ -8,6 +10,6 @@
 import { defineComponent } from 'vue'
 
 export default defineComponent({
-  name: 'IndexPage'
+    name: 'IndexPage'
 })
 </script>

@@ -1,4 +1,4 @@
-# MObiSoft (front-end)
+# Noxus (front-end)
 
 Sistema Gerenciador
 

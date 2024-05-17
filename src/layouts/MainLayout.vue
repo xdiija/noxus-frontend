@@ -12,10 +12,9 @@
         />
 
         <q-toolbar-title>
-          MobiSoft
+            Noxus Sistemas
         </q-toolbar-title>
 
-        <div>v1.0.0</div>
       </q-toolbar>
     </q-header>
 
@@ -49,37 +48,37 @@ import { defineComponent, ref } from 'vue'
 import EssentialLink from 'components/EssentialLink.vue'
 
 const linksList = [
-  {
-    title: 'Docs',
-    caption: 'quasar.dev',
-    icon: 'school',
-    link: 'https://quasar.dev'
-  },
-  {
-    title: 'Logout',
-    caption: '',
-    icon: 'exit_to_app',
-    route: { name: 'login' }
-  }
+    {
+        title: 'Home',
+        caption: '',
+        icon: 'home',
+        route: '/'
+    },
+    {
+        title: 'Logout',
+        caption: '',
+        icon: 'exit_to_app',
+        route: 'login'
+    }
 ]
 
 export default defineComponent({
-  name: 'MainLayout',
+    name: 'MainLayout',
 
-  components: {
-    EssentialLink
-  },
+    components: {
+        EssentialLink
+    },
 
-  setup () {
-    const leftDrawerOpen = ref(false)
+    setup () {
+        const leftDrawerOpen = ref(false)
 
-    return {
-      essentialLinks: linksList,
-      leftDrawerOpen,
-      toggleLeftDrawer () {
-        leftDrawerOpen.value = !leftDrawerOpen.value
-      }
+        return {
+            essentialLinks: linksList,
+            leftDrawerOpen,
+            toggleLeftDrawer () {
+                leftDrawerOpen.value = !leftDrawerOpen.value
+            }
+        }
     }
-  }
 })
 </script>
